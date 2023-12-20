@@ -46,8 +46,13 @@ This project depends on Bun and Docker. With both installed, follow the steps be
 
 ## Post configurations
 
-### Docker
-  Set your own postgres password and make sure your .env is updated to the new password.
+### Environment variable
+   1. Change POSTGRES_PASSWORD in .env and make sure to change DATABASE_URL with the new password.
+   2. Rename .env to keep your keys safe
+   ```sh
+      mv .env .env.local
+   ```
+   
 
 ## Why Elysia?
 
