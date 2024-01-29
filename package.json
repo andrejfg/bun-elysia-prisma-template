@@ -10,13 +10,13 @@
   "dependencies": {
     "@elysiajs/swagger": "^0.7.4",
     "@prisma/client": "5.7.1",
-    "elysia": "latest",
-    "prisma": "^5.7.1"
+    "elysia": "latest"
   },
   "devDependencies": {
     "@rocketseat/eslint-config": "^2.1.0",
     "bun-types": "latest",
-    "eslint": "^8.56.0"
+    "eslint": "^8.56.0",
+    "prisma": "^5.8.1"
   },
   "module": "src/server.js"
 }
