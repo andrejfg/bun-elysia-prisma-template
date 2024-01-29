@@ -47,10 +47,10 @@ This project depends on Bun and Docker. With both installed, follow the steps be
 ## Post configurations
 
 ### Environment variable
-   1. Change POSTGRES_PASSWORD in .env and make sure to change DATABASE_URL with the new password.
-   2. Rename .env to keep your keys safe and make sure to change env_file in docker-compose.yml
+   1. Change POSTGRES_PASSWORD in .env.example and make sure to change DATABASE_URL with the new password.
+   2. Rename .env.example to keep your keys safe and make sure to change env_file in docker-compose.yml
    ```sh
-      mv .env .env.local
+      mv .env.example .env.local
    ```
    
 
